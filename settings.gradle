@@ -1,0 +1,3 @@
+include 'WebViewJsTest'
+
+rootProject.name = 'WebViewJsTest'

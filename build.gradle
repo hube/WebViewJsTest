@@ -1,0 +1,4 @@
+task wrapper(type: Wrapper) {
+    // This version of Gradle is required to build Android apps
+    gradleVersion = '1.12'
+}
