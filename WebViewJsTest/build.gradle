@@ -14,15 +14,20 @@ dependencies {
     // compile 'com.android.support:support-v4:19.0.+'
 }
 
+/**
+ * We build with targetSdkVersion=18 because Android 4.4 introduces a new
+ * WebView whose behavior is entirely different from all previous versions of
+ * Android. See https://developer.android.com/guide/webapps/migrating.html.
+ */
 android {
-    compileSdkVersion 19
+    compileSdkVersion 18
     buildToolsVersion '19.1.0'
 
     defaultConfig {
         versionCode 1
         versionName "0.0.1"
         minSdkVersion 8
-        targetSdkVersion 19
+        targetSdkVersion 18
     }
 
     lintOptions {
